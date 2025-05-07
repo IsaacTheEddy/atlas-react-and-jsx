@@ -5,12 +5,8 @@ import { SocialLinks } from "./SocialLinks";
 export default function Header() {
   return (
     <nav>
-      <div className="app">
-        <Greeting />
-      </div>
-      <div className="social-links">
-        <SocialLinks />
-      </div>
+      <Greeting />
+      <SocialLinks />
     </nav>
   );
 }

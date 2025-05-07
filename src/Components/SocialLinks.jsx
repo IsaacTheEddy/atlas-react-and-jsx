@@ -4,7 +4,7 @@ import github from "../assets/github.svg";
 
 export function SocialLinks() {
   return (
-    <>
+    <div className="social-links">
       <a
         rel={"external"}
         target="_blank"
@@ -19,6 +19,6 @@ export function SocialLinks() {
       >
         <img src={github} alt="GitHub-Logo" />
       </a>
-    </>
+    </div>
   );
 }
